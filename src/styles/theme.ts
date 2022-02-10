@@ -31,6 +31,16 @@ export const theme = extendTheme({
         colorScheme: 'orange',
       },
     },
+    Modal: {
+      sizes: {
+        md: {
+          dialog: {
+            width: 'auto',
+            maxW: '100%',
+          }
+        }
+      }
+    }
   },
   styles: {
     global: {
